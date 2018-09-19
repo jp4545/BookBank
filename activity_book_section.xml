@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2sp"
+    tools:context=".BookSection">
+
+    <Spinner
+        android:id="@+id/sub"
+        android:layout_width="368dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/sem"
+        android:layout_width="368dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toTopOf="@+id/sub"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Contribute"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="Contribute"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+</android.support.constraint.ConstraintLayout>
